@@ -7,9 +7,13 @@ Du arbeitest komplett im Browser. Auf deinem Rechner wird nichts installiert.
 1. Unten ins **Terminal** klicken. Falls keins offen ist: Menü oben links, **Terminal**, **New Terminal**.
 2. Terminal groß machen: rechts im Terminal-Kopf auf **Bereich maximieren** klicken (das Symbol mit den vier Ecken).
 3. `vibe` eintippen, Enter.
-4. **Folge den Anweisungen im Terminal.** Bei der Anmeldung **Launch browser** wählen und mit deinem Mistral-Konto anmelden.
+4. **Folge den Anweisungen im Terminal.** Bei der Anmeldung **Launch browser**, dann **Mistral AI** wählen.
+   VS Code fragt, ob es die Website öffnen darf: **Öffnen**. Im Browser anmelden und Vibe erlauben.
+5. Vibe fragt, ob du dem Ordner vertraust: **Trust folder**.
 
 Danach beschreibst du Vibe einfach, was du bauen willst.
+
+**Modell:** Lass unter `/model` die Einstellung **Default**. Nutze nie GLM, das verbraucht deine Credits extrem schnell.
 
 ## 2. Speichern (wichtig)
 
