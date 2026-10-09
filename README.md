@@ -3,15 +3,18 @@
 Deine Arbeitsumgebung für eigene KI-Agenten mit Mistral Vibe. Läuft komplett
 im Browser, du installierst nichts auf deinem Rechner.
 
-## Start in drei Schritten
+## Start
 
-1. Oben auf **Code**, dann **Codespaces**, dann **Create codespace on main** klicken.
+Du brauchst nur ein kostenloses GitHub-Konto (https://github.com/signup).
+GitHub Student ist nicht nötig, das kostenlose Konto enthält genug Codespaces-Zeit.
+
+1. Oben rechts auf **Use this template**, dann **Create a new repository** klicken.
+   Name vergeben (zum Beispiel `vibelab-teamname`), **Create repository**.
+   Im Zweierteam macht das eine Person und lädt die andere unter
+   **Settings, Collaborators** ein.
+2. In deinem neuen Repo: **Code**, dann **Codespaces**, dann **Create codespace on main**.
    Nach ein bis zwei Minuten ist VS Code im Browser offen.
-2. Wenn VS Code fragt, ob du dem Ordner vertraust: **Ordner vertrauen**.
-3. Im Terminal unten `vibe` eintippen, Enter. Beim ersten Start fragt Vibe nach
-   deinem Mistral API Key (aus https://console.mistral.ai). Einfügen, fertig.
-
-Danach vertraut Vibe dem Ordner einmal (ja), und `/mcp` zeigt deine Werkzeuge.
+3. Weiter geht es in der Datei `START-HIER.md`, die sich automatisch öffnet.
 
 ## Was drin ist
 
