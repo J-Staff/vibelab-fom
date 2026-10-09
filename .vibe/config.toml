@@ -1,7 +1,6 @@
 # Vibe Lab. Gemeinsame Projekt-Konfiguration.
 # Enthaelt KEINE Secrets. Alle Werkzeuge hier laufen ohne zusaetzliches Konto.
 
-active_model = "devstral-small"
 default_agent = "plan"
 enable_telemetry = false
 
