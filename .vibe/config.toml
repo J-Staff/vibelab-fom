@@ -2,6 +2,12 @@
 # Enthaelt KEINE Secrets. Alle Werkzeuge hier laufen ohne zusaetzliches Konto.
 
 default_agent = "plan"
+
+# Nur Mistral-Modelle auswählbar. Schliesst GLM und andere Fremdmodelle aus,
+# die eure Credits sehr schnell verbrauchen, ebenso das lokale Devstral,
+# das im Codespace nicht laeuft. Das Standardmodell heisst intern
+# mistral-vibe-cli-latest und faellt unter mistral-*.
+allowed_models = ["mistral-*", "devstral-*", "codestral-*"]
 enable_telemetry = false
 
 # Alle Skills aus .vibe/skills aktivieren
