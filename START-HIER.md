@@ -2,38 +2,30 @@
 
 Du arbeitest komplett im Browser. Auf deinem Rechner wird nichts installiert.
 
-## 1. Vibe starten (Terminal unten)
+## 1. Los geht's
 
 1. Unten ins **Terminal** klicken. Falls keins offen ist: Menü oben links, **Terminal**, **New Terminal**.
-2. `vibe` eintippen, Enter.
-3. Farbschema mit Enter bestätigen.
-4. Anmeldung: **Launch browser** wählen (empfohlen) und mit deinem Mistral-Konto anmelden.
-   Ein Key ist dafür nicht nötig. Wer schon einen hat, kann **Use an API key** wählen.
-5. Fragt Vibe, ob du diesem Ordner vertraust: **ja**.
-6. `/mcp` zeigt deine Werkzeuge, `/help` alle Befehle.
+2. Terminal groß machen: rechts im Terminal-Kopf auf **Bereich maximieren** klicken (das Symbol mit den vier Ecken).
+3. `vibe` eintippen, Enter.
+4. **Folge den Anweisungen im Terminal.** Bei der Anmeldung **Launch browser** wählen und mit deinem Mistral-Konto anmelden.
 
-## 2. Terminal größer machen
+Danach beschreibst du Vibe einfach, was du bauen willst.
 
-- **Ganz groß:** im Terminal-Kopf rechts auf **Bereich maximieren** (englisch: Maximize Panel Size, das Symbol mit den vier Ecken) klicken. Nochmal klicken, und es wird wieder klein.
-- **Ein- und ausblenden:** `Strg` und `J` (Mac: `Cmd` und `J`).
-- **Stufenlos:** die Linie zwischen Editor und Terminal mit der Maus nach oben ziehen.
-- **Als eigener Tab:** `F1` drücken, **Terminal: Create New Terminal in Editor Area** wählen.
-- **Schrift größer:** `Strg` und `+` (Mac: `Cmd` und `+`).
+## 2. Speichern (wichtig)
 
-## 3. Rechts anmelden (Vibe als Chat-Fenster)
+Was du baust, liegt erst nur in deinem Codespace. Damit es im Team-Repo landet:
 
-1. In der rechten Seitenleiste den Reiter **Mistral Vibe** öffnen.
-   Nicht den Reiter **Chat**, das ist GitHub Copilot, nicht Mistral.
-2. **Mit Mistral AI fortfahren** klicken und mit deinem Mistral-Konto anmelden.
-   Alternativen: **Über Terminal anmelden**, oder unten in der Statusleiste auf **Anmelden**.
+- links **Quellcodeverwaltung** öffnen, kurze Nachricht eintippen, **Commit**, dann **Sync**,
+- oder Vibe sagen: *Speichere meinen Stand ins Repo.*
 
-## Terminal oder rechts, was ist der Unterschied?
+## 3. Pause machen
 
-| | Terminal (`vibe`) | Rechts (Mistral Vibe) |
-|---|---|---|
-| Bedienung | Tippen, Befehle mit `/` | Chat-Fenster mit Klicks |
-| Anmeldung | Mistral-Konto (oder API Key) | Mistral-Konto |
-| Stärken | alle Befehle, Skills und Werkzeuge, volle Kontrolle | Änderungen direkt als Vorher/Nachher im Editor sehen |
-| Empfehlung | **zum Bauen** | zum Nachfragen und Anschauen |
+- Tab schließen reicht. Der Codespace stoppt nach 30 Minuten ohne Aktivität von selbst.
+- Sofort stoppen: `F1`, **Codespaces: Stop Current Codespace**.
+- Weitermachen: im Repo **Code**, **Codespaces**, deinen Codespace anklicken.
+- Ungenutzte Codespaces löscht GitHub nach 30 Tagen. Vorher speichern.
 
-Beide nutzen dieselbe Vibe-Konfiguration aus diesem Ordner. Nimm eins von beiden gleichzeitig, nicht beide parallel an derselben Aufgabe.
+## Rechts gibt es Vibe auch als Chat
+
+Reiter **Mistral Vibe** (nicht **Chat**, das ist GitHub Copilot), **Mit Mistral AI fortfahren**.
+Gut zum Nachfragen. Zum Bauen ist das Terminal besser.
