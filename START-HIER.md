@@ -7,8 +7,11 @@ Du arbeitest komplett im Browser. Auf deinem Rechner wird nichts installiert.
 1. Unten ins **Terminal** klicken. Falls keins offen ist: Menü oben links, **Terminal**, **New Terminal**.
 2. Terminal groß machen: rechts im Terminal-Kopf auf **Bereich maximieren** klicken (das Symbol mit den vier Ecken).
 3. `vibe` eintippen, Enter.
-4. **Folge den Anweisungen im Terminal.** Bei der Anmeldung **Launch browser**, dann **Mistral AI** wählen.
-   VS Code fragt, ob es die Website öffnen darf: **Öffnen**. Im Browser anmelden und Vibe erlauben.
+4. **Folge den Anweisungen im Terminal.** Bei der Anmeldung **Use an API key** wählen und deinen
+   **Studio-Schlüssel** einfügen (console.mistral.ai, API-Schlüssel, Neuer Schlüssel).
+   Nur dieser Schlüssel nutzt eure Credits. Vibe verlinkt dort auf den Vibe-Schlüssel, dem nicht folgen.
+   Noch kein Code da? Dann geht vorerst auch **Launch browser** (monatliches Vibe-Kontingent).
+   Später wechseln: `vibe --setup`, dann **Use an API key**.
 5. Vibe fragt, ob du dem Ordner vertraust: **Trust folder**.
 
 Danach beschreibst du Vibe einfach, was du bauen willst.
