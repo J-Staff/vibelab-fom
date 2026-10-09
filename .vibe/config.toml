@@ -7,7 +7,7 @@ default_agent = "plan"
 # die eure Credits sehr schnell verbrauchen, ebenso das lokale Devstral,
 # das im Codespace nicht laeuft. Das Standardmodell heisst intern
 # mistral-vibe-cli-latest und faellt unter mistral-*.
-allowed_models = ["mistral-*", "devstral-*", "codestral-*"]
+allowed_models = ["mistral-*"]
 enable_telemetry = false
 
 # Alle Skills aus .vibe/skills aktivieren
