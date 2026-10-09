@@ -6,13 +6,15 @@ Du arbeitest komplett im Browser. Auf deinem Rechner wird nichts installiert.
 
 1. Unten ins **Terminal** klicken. Falls keins offen ist: Menü oben links, **Terminal**, **New Terminal**.
 2. `vibe` eintippen, Enter.
-3. Beim ersten Start fragt Vibe nach deinem **Mistral API Key** (aus https://console.mistral.ai, API Keys). Einfügen, Enter.
-4. Fragt Vibe, ob du diesem Ordner vertraust: **ja**.
-5. `/mcp` zeigt deine Werkzeuge, `/help` alle Befehle.
+3. Farbschema mit Enter bestätigen.
+4. Anmeldung: **Launch browser** wählen (empfohlen) und mit deinem Mistral-Konto anmelden.
+   Ein Key ist dafür nicht nötig. Wer schon einen hat, kann **Use an API key** wählen.
+5. Fragt Vibe, ob du diesem Ordner vertraust: **ja**.
+6. `/mcp` zeigt deine Werkzeuge, `/help` alle Befehle.
 
 ## 2. Terminal größer machen
 
-- **Ganz groß:** im Terminal-Kopf rechts auf **Bereich maximieren** (englisch: Maximize Panel Size, Pfeil nach oben) klicken. Nochmal klicken, und es wird wieder klein.
+- **Ganz groß:** im Terminal-Kopf rechts auf **Bereich maximieren** (englisch: Maximize Panel Size, das Symbol mit den vier Ecken) klicken. Nochmal klicken, und es wird wieder klein.
 - **Ein- und ausblenden:** `Strg` und `J` (Mac: `Cmd` und `J`).
 - **Stufenlos:** die Linie zwischen Editor und Terminal mit der Maus nach oben ziehen.
 - **Als eigener Tab:** `F1` drücken, **Terminal: Create New Terminal in Editor Area** wählen.
@@ -30,7 +32,7 @@ Du arbeitest komplett im Browser. Auf deinem Rechner wird nichts installiert.
 | | Terminal (`vibe`) | Rechts (Mistral Vibe) |
 |---|---|---|
 | Bedienung | Tippen, Befehle mit `/` | Chat-Fenster mit Klicks |
-| Anmeldung | API Key | Mistral-Konto |
+| Anmeldung | Mistral-Konto (oder API Key) | Mistral-Konto |
 | Stärken | alle Befehle, Skills und Werkzeuge, volle Kontrolle | Änderungen direkt als Vorher/Nachher im Editor sehen |
 | Empfehlung | **zum Bauen** | zum Nachfragen und Anschauen |
 

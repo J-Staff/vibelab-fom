@@ -23,8 +23,9 @@ GitHub Student ist nicht nötig, das kostenlose Konto enthält genug Codespaces-
 - **Skills** in `.vibe/skills`, die Vibe strukturiert arbeiten lassen
   (brainstorming, writing-plans, test-driven-development, systematic-debugging, ...)
 
-## Dein Key
+## Deine Anmeldung
 
-Der Key liegt nur in deinem Codespace unter `~/.vibe/.env`, nie im Repository.
-Er bleibt erhalten, wenn der Codespace pausiert. Löschst du den Codespace,
-fragt Vibe beim nächsten Mal einfach erneut.
+Vibe meldet dich beim ersten Start über dein Mistral-Konto an (Launch browser).
+Die Anmeldung bleibt in deinem Codespace gespeichert, nie im Repository, und
+gilt weiter, wenn der Codespace pausiert. Löschst du den Codespace, meldest du
+dich beim nächsten Mal einfach erneut an.
